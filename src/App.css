@@ -1,3 +1,38 @@
+/* *{
+  padding-top:1px;
+} */
+
+.color-picker{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  width: 190px;
+  justify-content: center;
+}
+
+.alert{
+  width: 1000%;
+  text-align: center;
+  border: 2px solid #212529;
+  border-radius: 40px;
+}
+.alert-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar{
+  height: 60px;
+}
+.form-control{
+  border: 2px solid black;
+  border-radius: 20px;
+}
+.heading{
+  text-align: center;
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +70,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* my styling in jsx */
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 1.2rem;
+  background-color: lightslategray;
 }
