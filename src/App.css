@@ -2,6 +2,13 @@
   padding-top:1px;
 } */
 
+.alert-container-outer{
+  height: 60px;
+  width: 100%;
+  /* background-color: black; */
+  /* border: 2px solid black; */
+}
+
 .color-picker{
   display: flex;
   gap: 5px;
@@ -13,7 +20,7 @@
 .alert{
   width: 1000%;
   text-align: center;
-  border: 2px solid #212529;
+  border: 1px solid #212529;
   border-radius: 40px;
 }
 .alert-container{

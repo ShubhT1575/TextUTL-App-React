@@ -8,11 +8,13 @@ export default function Alert(props) {
     }
 
   return (
-    props.alert && <div className='alert-container'>
-      <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
-        <strong>{capital(props.alert.type)}</strong>: {props.alert.msg}
-        {/* <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> */}
-      </div>
+   <div className="alert-container-outer">
+      { props.alert && <div className='alert-container'>
+        <div className={`alert alert-${props.alert.type} alert-dismissible fade show`} role="alert">
+          <strong>{capital(props.alert.type)}</strong>: {props.alert.msg}
+          {/* <button type="button" className="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> */}
+        </div>
+      </div>}
     </div>
   )
 }
