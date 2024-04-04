@@ -43,14 +43,14 @@ function App() {
       setMode("dark");
       setText("Disable Dark Mode");
       document.body.style.backgroundColor = "#545F66"
-      document.body.style.color = "white";
+      document.body.style.color = "#fff";
       showAlert("Dark Mode has been enabled","success");
       document.title = "TextUtils - Dark Mode"
     }
     else{
       setMode("light");
       setText("Enable Dark Mode");
-      document.body.style.backgroundColor = "white";
+      document.body.style.backgroundColor = "#fff";
       document.body.style.color = "#212529";
       showAlert("Light Mode has been enabled","success");
       document.title = "TextUtils - Light Mode"
